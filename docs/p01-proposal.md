@@ -68,3 +68,6 @@ Some limitations that our group may have to face while gathering our data sets i
 - Smith, Melissa E., et al. “The Impact of Exposure to Gun Violence Fatality on  Mental Health Outcomes in Four Urban U.S. Settings.” Social Science & Medicine, vol. 246, Feb. 2020, p. 112587, 10.1016/j.socscimed.2019.112587.
 - Wamser-Nanney, R. (2021). Understanding gun violence: Factors associated with beliefs regarding guns, gun policies, and gun violence.Psychology of Violence, 11(4), 349–353. https://doi.org/10.1037/vio0000392
 - Nagin, DS, Koper, CS, Lum, C. Policy recommendations for countering mass shootings in the United States. Criminol Public Policy. 2020; 19: 9– 15. https://doi.org/10.1111/1745-9133.12484
+
+## Appendix A: Questions
+We have no questions as of now. 
