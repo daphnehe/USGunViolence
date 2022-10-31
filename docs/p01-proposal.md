@@ -1,6 +1,6 @@
 # Bulletproof Futures
 
-**Code Name**: Titanium Tales
+**Code Name**: Titanium
 
 **Authors**: Daphne He (daphnehe@uw.edu), Cecelia Thomas (ceceliat@uw.edu), Stephanie Liu (sliu39@uw.edu)
 
@@ -46,7 +46,7 @@ or suicide?
 |:----------|:------------------|:---------------|:-----------|
 |all_incidents  | 472,821 | 7 | Werr, E. F. (2022, May 29). Gun violence incidents in the United States. Kaggle. Retrieved October 30, 2022, from https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa?resource=download |
 |full_data (gun deaths in america)  | 100,798 | 11 | Zelenak, A. (2018, March 20). Gun deaths in America - dataset by Azel. data.world. Retrieved October 30, 2022, from https://data.world/azel/gun-deaths-in-america |
-| Mass Shootings Dataset Ver 2.csv | 319 | 12 | kanncaa1. (2018, June 22). Why gun violence increase in Texas. Retrieved October 30, 2022, from https://www.kaggle.com/code/kanncaa1/why-gun-violance-increase-in-texas/data |
+| Mass Shootings Dataset Ver 2 | 319 | 12 | kanncaa1. (2018, June 22). Why gun violence increase in Texas. Retrieved October 30, 2022, from https://www.kaggle.com/code/kanncaa1/why-gun-violance-increase-in-texas/data |
 
 
 **All_incidents data set**:
@@ -59,6 +59,7 @@ This data set contains the amount of gun deaths that resulted from certain incid
 This data set provides information on mass shootings between the year 1966 and 2017. Attributes include title of mass shooting, location, date, total number of victims, whether it was a mental health issue, and the race of the perpetrator. This data will allow us to track down where mass shootings occur the most frequently in the US and the severity of mass shootings in different states or cities. We would then be able to examine policies or laws in the areas where most mass shootings occur and recommend our own policies to reduce the frequencies of mass shootings. We will also be able to observe trends, like how large of a role mental health is in mass shooting incidents. The data was collected by Datai team based in Turkey from sources like Wikipedia, USA Today, Mother Jones, and Stanford in 2017 in order to use machine learning to understand trends in mass shootings incidents. The data collection effort was not funded and this data is most useful to people researching to implement new policies against mass shootings and gun violence. This data is trustworthy because Datai is a Notebooks Grandmaster on Kaggle, which is the highest tier. I found the data from Kaggle and credit the source of the data due to Datai, USA Today, Wikipedia, Mother Jones, and Stanford’s good reputation.
 
 ## Expected Implications
+(incomplete)
 
 ## Limitations
 Some limitations that our group may have to face while gathering our data sets is that some of the data may be outdated, even if that data is considered to be our more recent data. A few of the data sets that we have found from our research have not been updated for a few years, which leaves the validity and relevancy of our data up in the air. Furthermore, there may be some human errors, such as typos, in our data sets. The data sets we found could also be missing other important data, leaving large gaps that could make it difficult to fully comprehend the data. As a result, any trends that we find could be a result of over or underestimation due to any gaps within the data sets.
