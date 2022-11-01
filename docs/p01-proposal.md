@@ -1,4 +1,4 @@
-# Bulletproof Futures (Gun Violence in the US)
+# Gun Violence in the US
 
 **Code Name**: Titanium
 
