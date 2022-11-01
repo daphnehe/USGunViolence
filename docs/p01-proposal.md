@@ -2,7 +2,7 @@
 
 **Code Name**: Titanium
 
-**Authors**: Daphne He (daphnehe@uw.edu), Cecelia Thomas (ceceliat@uw.edu), Stephanie Liu (sliu39@uw.edu)
+**Authors**: Cecelia Thomas (ceceliat@uw.edu), Stephanie Liu (sliu39@uw.edu), Daphne He (daphnehe@uw.edu)
 
 **Affiliation**:  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
