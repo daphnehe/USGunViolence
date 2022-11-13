@@ -3,16 +3,16 @@ library(ggplot2)
 library(tidyverse)
 data <- read.csv("C:/Users/steph/Documents/info201/project-CeceliaKT/data/Mass Shootings Dataset Ver 5.csv")
 
-View(data)
+#View(data)
 
-race_gender <- data %>%
+gender <- data %>%
   group_by(Gender) %>%
   summarise(counts = n())
-View(race_gender)
+#View(race_gender)
 datadf <- data.frame(data)
-View(datadf)
+#View(datadf)
 
-chart <- ggplot(race_gender) + 
+chart1 <- ggplot(gender) + 
   geom_col(mapping = aes(x = Gender, y = counts))
-plot(chart)
+plot(chart1)
 
