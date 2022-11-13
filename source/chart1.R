@@ -5,7 +5,7 @@ data <- read.csv("C:/Users/steph/Documents/info201/project-CeceliaKT/data/Mass S
 
 View(data)
 
-race_gender <- datadf %>%
+race_gender <- data %>%
   group_by(Gender) %>%
   summarise(counts = n())
 View(race_gender)
