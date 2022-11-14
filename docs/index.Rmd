@@ -7,33 +7,25 @@ output: html_document
 
 ```{r setup, include=FALSE}
 source("../source/chart2.R")
+source("../source/calculations.R")
+#source("../source/chart1.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Five calculated values:
+victims_less_than_one(): `r victims_less_than_one()`
+
+male_offenders_count(): `r male_offenders_count()`
+
+female_offenders_count(): `r female_offenders_count()`
+
+black_victim_count(): `r black_victim_count()`
+
+handgun_used_count(): `r handgun_used_count()`
 
 ``` {r echo=FALSE}
 #chart2, firearm type, bar chart
 chart
 ```
-
-```{r setup, include=FALSE}
-source("../source/chart1.R")
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r echo=FALSE}
-#chart1, mass shootings, gender of the offender
-chart1
-```
-
-
-```{r setup, include=FALSE}
-source("../source/chart1.R")
-#table test
-library(knitr)
-kable(data[1:5, ], caption = "testing testing 123")
-
-```
-
 
 
 
