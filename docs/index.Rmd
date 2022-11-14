@@ -24,7 +24,7 @@ handgun_used_count(): `r handgun_used_count()`
 
 ``` {r echo=FALSE}
 #chart2, firearm type, bar chart
-chart
+pie_chart
 ```
 
 
