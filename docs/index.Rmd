@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 source("../source/chart2.R")
 source("../source/calculations.R")
+source("../source/table.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -15,6 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Of the gun death victims from 1985 to 2018, `r victims_less_than_one()` were less than one years old. The percentage of male offenders is `r male_offenders_percentage()`% and the percentage of female offenders is `r female_offenders_percentage()`%. The percentage of Black victims is `r black_victim_percentage()`%.
 
+``` {r echo=FALSE}
+library("knitr")
+kable(n_weapons)
+```
 
 ``` {r echo=FALSE}
 #chart2, firearm type, bar chart
