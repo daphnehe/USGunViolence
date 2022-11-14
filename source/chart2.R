@@ -13,3 +13,9 @@ chart <- ggplot(data = n_weapons) +
     mapping = aes(x = weapon_used, y = counts)
            )
 plot(chart)
+
+pie_chart <- ggplot(n_weapons, aes(x = "", y = counts, fill = weapon_used)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=0) +
+  theme_void()
+plot(pie_chart)
