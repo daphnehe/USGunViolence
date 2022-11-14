@@ -8,25 +8,20 @@ output: html_document
 ```{r setup, include=FALSE}
 source("../source/chart2.R")
 source("../source/calculations.R")
-#source("../source/chart1.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Five calculated values:
-victims_less_than_one(): `r victims_less_than_one()`
 
-male_offenders_count(): `r male_offenders_count()`
+### Dynamic paragraph
 
-female_offenders_count(): `r female_offenders_count()`
+Of the gun death victims from 1985 to 2018, `r victims_less_than_one()` were less than one years old. The percentage of male offenders is `r male_offenders_percentage()`% and the percentage of female offenders is `r female_offenders_percentage()`%. The percentage of Black victims is `r black_victim_percentage()`%.
 
-black_victim_count(): `r black_victim_count()`
-
-handgun_used_count(): `r handgun_used_count()`
 
 ``` {r echo=FALSE}
 #chart2, firearm type, bar chart
 pie_chart
+line_chart
+bar_chart
 ```
-
 
 
 ## What is this file for?
@@ -72,3 +67,7 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+The percentage of gun death's that were caused by a hand gun is `r handgun_used_percentage()`%.
+
