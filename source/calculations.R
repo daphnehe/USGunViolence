@@ -1,5 +1,5 @@
 library(tidyverse)
-us_gun_deaths <- read.csv("/Users/daphnehe/Documents/info201/project/project-CeceliaKT/data/US_gun_deaths_1985-2018.csv")
+us_gun_deaths <- read.csv("../data/US_gun_deaths_1985-2018.csv")
 victims_less_than_one <- function(){
   count <- us_gun_deaths %>% 
     filter(victim_age == "Less than one year old") %>% 
