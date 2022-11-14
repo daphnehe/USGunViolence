@@ -9,40 +9,40 @@ victims_less_than_one <- function(){
 }
 victims_less_than_one()
 
-male_offenders_count <- function(){
+male_offenders_percentage <- function(){
   male_count <- us_gun_deaths %>% 
     filter(offender_sex == "Male") %>% 
     summarise (male_count = n()) %>% 
     pull(male_count)
-  return(male_count/260279)
+  return(round(male_count/260279*100, 0))
 }
-male_offenders_count()
+male_offenders_percentage()
 
-female_offenders_count <- function(){
+female_offenders_percentage <- function(){
   female_count <- us_gun_deaths %>% 
     filter(offender_sex == "Female") %>% 
     summarise (female_count = n()) %>% 
     pull(female_count)
-  return(female_count/260279)
+  return(round(female_count/260279*100, 0))
 }
-female_offenders_count()
+female_offenders_percentage()
 
-black_victim_count <- function(){
+black_victim_percentage <- function(){
   black_count <- us_gun_deaths %>% 
     filter(victim_race == "Black") %>% 
     summarise (black_count = n()) %>% 
     pull(black_count)
-  return(black_count/386235)
+  return(round(black_count/386235*100, 0))
 }
-black_victim_count()
+black_victim_percentage()
 
-handgun_used_count <- function(){
+handgun_used_percentage <- function(){
   handgun_count <- us_gun_deaths %>% 
     filter(weapon_used == "handgun") %>% 
     summarise (handgun_count = n()) %>% 
     pull(handgun_count)
-  return(handgun_count/387004)
+  return(round(handgun_count/387004*100, 0))
 }
-handgun_used_count()
+handgun_used_percentage()
 
 
