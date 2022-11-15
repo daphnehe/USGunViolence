@@ -21,9 +21,9 @@ that show the severity of gun violence in the U.S.
 
 ``` {r echo=FALSE}
 library("knitr")
-kable(n_weapons)
+kable(gender)
 ```
-
+From the table seen above, we can see that most mass shootings are done by males (over 200). However, we need to note that the table does not account for people who identify outside of the gender binary, and therefore the data may have limitations or inaccuracies.
 ``` {r echo=FALSE}
 #chart2
 pie_chart
