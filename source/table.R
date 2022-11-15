@@ -15,3 +15,4 @@ n_weapons <- gun_deaths %>%
   summarise(counts = n()) %>% 
   return(n_weapons)
 View(n_weapons)
+
