@@ -1,9 +1,9 @@
 #install.packages("ggplot2")
 library(ggplot2)
 library(tidyverse)
-gun_deaths <- read.csv("../data/US_gun_deaths_1985-2018.csv")
+mass_shootings <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-CeceliaKT/main/data/Mass%20Shootings%20Dataset%20Ver%205.csv")
 #data2 <- data1[-c(1,2),]
-#View(data2)
+View(mass_shootings)
 
 # table_plz <- gun_deaths %>% 
 #   group_by(year) %>% 
@@ -16,4 +16,8 @@ gun_deaths <- read.csv("../data/US_gun_deaths_1985-2018.csv")
   #return(n_weapons)
 #View(n_weapons)
 
+gender <- mass_shootings %>%
+  group_by(Gender) %>%
+  summarize(counts = n())
+View(gender)
 
