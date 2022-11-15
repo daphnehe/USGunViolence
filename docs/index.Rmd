@@ -16,14 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Dynamic paragraph
 
-Of the gun death victims from 1985 to 2018, `r victims_less_than_one()` were less than one years old. The percentage of male offenders is `r male_offenders_percentage()`% and the percentage of female offenders is `r female_offenders_percentage()`%. The percentage of Black victims is `r black_victim_percentage()`%. The amount of handguns used is `r handgun_used_percentage()`%. Through these values, we can see various trends in the data
-that show the severity of gun violence in the U.S.
+Of the gun death victims from 1985 to 2018, `r victims_less_than_one()` were less than one years old. The percentage of male offenders is `r male_offenders_percentage()`% and the percentage of female offenders is `r female_offenders_percentage()`%. The percentage of Black victims is `r black_victim_percentage()`%. The percentage of gun deaths caused by handguns is `r handgun_used_percentage()`%. Through these values, we can see various trends in the data that show the severity of gun violence in the U.S.
 
 ``` {r echo=FALSE}
 library("knitr")
 kable(gender)
 ```
-From the table seen above, we can see that most mass shootings are done by males (over 200). However, we need to note that the table does not account for people who identify outside of the gender binary, and therefore the data may have limitations or inaccuracies.
+From the table seen above, we can see that most mass shootings are done by males (over 200). Females account for the least number of mass shootings (only 9). However, we need to note that the table does not account for people who identify outside of the gender binary, and therefore the data may have limitations or inaccuracies.
 ``` {r echo=FALSE}
 #chart2
 pie_chart
@@ -38,46 +37,3 @@ chart3
 ```
 
 This visualization represents the number of shootings per state, including the District of Columbia, from the years 2013-2022. This chart further illustrates which states gun incidents have occurred most often. Illinois, California, Texas, and Florida are seen to have had the most gun related incidents from 2013 to 2022.
-
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test
-```
-
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!!
-
-## ABOUT THIS FILE:
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-
-The percentage of gun death's that were caused by a hand gun is `r handgun_used_percentage()`%.
-
