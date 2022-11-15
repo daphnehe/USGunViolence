@@ -2,7 +2,7 @@
 library(tidyverse)
 library(ggplot2)
 
-data <- read.csv("C:/Users/cecel/Documents/all_incidents.csv")
+data <- read.csv("../data/all_incidents.csv")
 #View(data)
 
 

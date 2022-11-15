@@ -29,3 +29,4 @@ gun_deaths_per_year <- data %>%
 line_chart <- ggplot(gun_deaths_per_year, aes(x = year, y = gun_deaths)) +
   geom_line()
 plot(line_chart)
+
