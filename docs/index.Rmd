@@ -27,10 +27,15 @@ kable(n_weapons)
 pie_chart
 line_chart
 bar_chart
+```
 
+
+``` {r echo=FALSE}
 #chart3, shootings per state, bar chart
 chart3
 ```
+
+This visualization represents the number of shootings per state, including the District of Columbia, from the years 2013-2022. This chart further illustrates which states gun incidents have occurred most often. Illinois, California, Texas, and Florida are seen to have had the most gun related incidents from 2013 to 2022.
 
 
 ## What is this file for?
