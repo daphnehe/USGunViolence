@@ -11,12 +11,25 @@ View(mass_shootings)
 # summarise(avg_victim_age = mean(victim_age, na.rm = TRUE))
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc6762f87444ef839f4bb7694b223a3cb218a324
 #n_weapons <- gun_deaths %>% 
 #group_by(weapon_used) %>% 
 #summarise(counts = n()) %>% 
 #return(n_weapons)
 #View(n_weapons)
 
+<<<<<<< HEAD
+=======
+
+gender <- mass_shootings %>%
+  group_by(Gender) %>%
+  summarize(counts = n())
+View(gender)
+
+>>>>>>> dc6762f87444ef839f4bb7694b223a3cb218a324
 
 gender <- mass_shootings %>%
   group_by(Gender) %>%
