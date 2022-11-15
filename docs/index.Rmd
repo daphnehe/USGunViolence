@@ -9,10 +9,7 @@ output: html_document
 source("../source/chart2.R")
 source("../source/calculations.R")
 source("../source/table.R")
-<<<<<<< HEAD
 source("../source/chart1.R")
-=======
->>>>>>> 6631812c2bb8175841cfc018b1367e8a7099c826
 source("../source/chart3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
