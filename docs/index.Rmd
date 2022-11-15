@@ -9,6 +9,7 @@ output: html_document
 source("../source/chart2.R")
 source("../source/calculations.R")
 source("../source/table.R")
+source("../source/chart3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -26,6 +27,9 @@ kable(n_weapons)
 pie_chart
 line_chart
 bar_chart
+
+#chart3, shootings per state, bar chart
+chart3
 ```
 
 
