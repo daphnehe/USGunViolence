@@ -22,17 +22,21 @@ Of the gun death victims from 1985 to 2018, `r victims_less_than_one()` were les
 library("knitr")
 kable(gender)
 ```
+
 From the table seen above, we can see that most mass shootings are done by males (over 200). Females account for the least number of mass shootings (only 9). However, we need to note that the table does not account for people who identify outside of the gender binary, and therefore the data may have limitations or inaccuracies.
+
 ``` {r echo=FALSE}
 #chart1
 pie_chart
 ```
+
 This visualization represents the type of weapon used to commit gun violence crimes. Handguns seem to have the highest usage, while rifles have the lowest usage. However, the data also accounts for any unknown weapons used in a crime, so the data may have inaccuracies in the amount of any certain type of weapon used.
 
 ```{r echo=FALSE}
 #chart2
 line_chart
 ```
+
 This visualization represents the amount of gun deaths over a span of 33 years from 1985 to 2018. The amount of deaths seem to have peaked sometime in between the years 1990 and 2000. The amount of deaths seems to be at the lowest before 2000 and after 2010.
 
 ``` {r echo=FALSE}
