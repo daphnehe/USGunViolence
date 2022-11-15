@@ -11,6 +11,7 @@ source("../source/calculations.R")
 source("../source/table.R")
 source("../source/chart1.R")
 source("../source/chart3.R")
+#source("../source/chart3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -32,6 +33,7 @@ bar_chart
 
 #chart3, shootings per state, bar chart
 chart3
+#chart3
 ```
 
 
