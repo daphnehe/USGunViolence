@@ -3,7 +3,7 @@
 library(shiny)
 
 tab_panel_summary <-tabPanel(
-    "Summary",
+    h5("Summary", style = "color: #90BBCE"),
     p("This is for the summary of key points.")
 )
 

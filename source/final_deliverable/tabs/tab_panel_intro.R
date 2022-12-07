@@ -3,6 +3,6 @@
 library(shiny)
 
 tab_panel_intro <-tabPanel(
-    "Introduction",
+    h5("Introduction", style = "color: #8E7CB3"),
     p("This is the introduction.")
 )

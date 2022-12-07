@@ -4,7 +4,7 @@ library(shiny)
 library(plotly)
 
 tab_panel_chart1 <-tabPanel(
-    "Chart 1",
+    h5("Chart 1", style = "color: #70AFB7"),
     p("This is chart 1."),
     sidebarLayout(
       sidebarPanel(

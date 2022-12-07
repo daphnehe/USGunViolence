@@ -6,7 +6,7 @@ year_input <- sliderInput("slider", label = h3("Slider Range"), min = 1985,
                           max = 2018, value = c(1990, 2000))
 
 tab_panel_chart2 <-tabPanel(
-    "Chart 2",
+    h5("Chart 2", style = "color: #8D94B8"),
     p("This is chart 2."),
     sidebarLayout(
       sidebarPanel(

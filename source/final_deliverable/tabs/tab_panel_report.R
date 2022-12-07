@@ -4,7 +4,7 @@ library(shiny)
 library("markdown")
 
 tab_panel_report <-tabPanel(
-  "Report",
+  h5("Report", style = "color: #AFA1CB"),
 
   fluidRow(
     column(
