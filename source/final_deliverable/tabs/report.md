@@ -9,7 +9,7 @@ Cecelia Thomas ([xxx\@uw.edu](mailto:xxx@uw.edu){.email})
 *University of Washington*\
 *Autumn 2022*
 
-### Abstract
+## Abstract
 
 Gun violence in the US is an issue that has become so politically divided that people often forget that it's real people's lives we're talking about. The main question we want to address is what steps can be taken to reduce the amount of gun deaths in the US? There are actions policymakers can take like implementing waiting periods, restricting concealed-carry permits, restricting "stand your ground" laws, etc., that can reduce the amount of gun deaths annually in the US. Our project strives to build an evidence base with interactive visualizations to support restricted gun laws to avoid thousands of gun deaths and reduce gun violence in the US annually.
 
@@ -54,7 +54,7 @@ Some harms with the intervention of data and technology are prejudices. If trend
 ## The Dataset
 
 | Data file                         | \# of Observations | \# of Variables | Citation                                                                                                                                                                                                              |
-|:-----------------|:------------------|:-----------------|:-----------------|
+|:----------------------------------|:-------------------|:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | all_incidents                     | 472,821            | 7               | Werr, E. F. (2022, May 29). Gun violence incidents in the United States. Kaggle. Retrieved October 30, 2022, from <https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa?resource=download> |
 | full_data (gun deaths in america) | 100,798            | 11              | Zelenak, A. (2018, March 20). Gun deaths in America - dataset by Azel. data.world. Retrieved October 30, 2022, from <https://data.world/azel/gun-deaths-in-america>                                                   |
 | Mass Shootings Dataset Ver 5      | 319                | 12              | kanncaa1. (2018, June 22). Why gun violence increase in Texas. Retrieved October 30, 2022, from <https://www.kaggle.com/code/kanncaa1/why-gun-violance-increase-in-texas/data>                                        |

@@ -11,7 +11,7 @@ library(dplyr)
 library(shiny)
 library(plotly)
 
-data <- read.csv("../../data/US_gun_deaths_1985-2018.csv")
+data <- read.csv("US_gun_deaths_1985-2018.csv")
 
 n_weapons <- data %>% 
    group_by(weapon_used) %>% 
