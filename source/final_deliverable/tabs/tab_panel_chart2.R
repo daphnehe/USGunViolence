@@ -2,22 +2,22 @@
 
 library(shiny)
 
+year_input <- sliderInput("slider", label = h3("Slider Range"), min = 1985, 
+                          max = 2018, value = c(1990, 2000))
+
 tab_panel_chart2 <-tabPanel(
     "Chart 2",
     p("This is chart 2."),
     sidebarLayout(
       sidebarPanel(
-        
-        selectInput("color", label = h3("Select color"), 
-                    choices = list("red", "blue", "green"), 
-                    selected = "red"),
-        
-      ),
+        year_input
+      ) 
+      ,
       
       
       mainPanel(
         h1("Amount of a certain weapon used"),
-        plotlyOutput("chart"),
+        plotlyOutput("chart2"),
         h5("Caption:"),
         p("This chart shows the amount of different types of weapons used during gun violence crimes.")
       )
