@@ -16,14 +16,14 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
-  title = "Project Example",
+  title = "Gun Violence in the US",
   position = "fixed-top",
 
   # A simple header
   header = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
-    HTML("... Project Header... "),
+    HTML(""),
     hr()
   ),
 

@@ -16,10 +16,10 @@ tab_panel_chart2 <-tabPanel(
       
       
       mainPanel(
-        h1("Amount of a certain weapon used"),
+        h1("Gun deaths over Time"),
         plotlyOutput("chart2"),
         h5("Caption:"),
-        p("This chart shows the amount of different types of weapons used during gun violence crimes.")
+        p("This chart shows the amount of gun deaths over a span of a certain number of years.")
       )
     )
 )
