@@ -9,9 +9,12 @@
 library(tidyverse)
 library(dplyr)
 library(shiny)
+
+data <- read.csv("../../data/US_gun_deaths_1985-2018.csv")
+
 n_weapons <- data %>% 
-  group_by(weapon_used) %>% 
-  summarise(counts = n())
+   group_by(weapon_used) %>% 
+   summarise(counts = n())
 
 server <- function(input, output) {
     # TBD
