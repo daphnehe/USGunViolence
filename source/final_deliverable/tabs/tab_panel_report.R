@@ -4,6 +4,7 @@ library(shiny)
 library("markdown")
 
 tab_panel_report <-tabPanel(
+<<<<<<< HEAD
   h5("Report", style = "color: #AFA1CB"),
 
   fluidRow(
@@ -20,6 +21,10 @@ tab_panel_report <-tabPanel(
       p("Rightmost column.")
     )
   )
+=======
+  "Report",
+  includeMarkdown("tabs/report.md")
+>>>>>>> 7e5f1645b5add527a7a4c3f7d3f0dd180d4d8e4f
 
 
 )
