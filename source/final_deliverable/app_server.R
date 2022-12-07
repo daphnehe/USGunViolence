@@ -6,9 +6,9 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+library(tidyverse)
+library(dplyr)
 library(shiny)
-
 n_weapons <- data %>% 
   group_by(weapon_used) %>% 
   summarise(counts = n())
