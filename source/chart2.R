@@ -9,6 +9,7 @@ data <- read.csv("../data/US_gun_deaths_1985-2018.csv")
 n_weapons <- data %>% 
   group_by(weapon_used) %>% 
   summarise(counts = n())
+
   
 bar_chart <- ggplot(data = n_weapons) + 
   geom_col(
