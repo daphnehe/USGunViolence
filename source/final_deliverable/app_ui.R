@@ -41,7 +41,6 @@ ui <- navbarPage(
   # The three charts
   tab_panel_chart1,
   tab_panel_chart2,
-  tab_panel_chart3,
 
   # The project summary
   tab_panel_summary,
