@@ -13,7 +13,7 @@ tab_panel_chart3 <-tabPanel(
       h1("Shootings vs. Deaths by State From 2013-2022"),
       plotlyOutput("scatter"),
       h5("Caption:"),
-      p("This chart represents the number of shootings from 2013-2022 and the total number of deaths each year by state.")
+      p("This chart represents a chosen state and its corresponding number of shootings and deaths occuring on the dates of 01-01-2013 through 05-28-2022")
     )
   )
 )
