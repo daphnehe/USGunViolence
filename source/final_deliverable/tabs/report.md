@@ -2,7 +2,7 @@
 
 Daphne He ([daphnehe\@uw.edu](mailto:daphnehe@uw.edu))\
 Stephanie Liu ([sliu39\@uw.edu](mailto:sliu39@uw.edu))\
-Cecelia Thomas ([ceceliat@uw.edu](mailto:ceceliat@uw.edu))\
+Cecelia Thomas ([ceceliat@uw.edu](mailto:ceceliat@uw.edu))
 
 *INFO-201: Technical Foundations of Informatics*\
 *The Information School*\

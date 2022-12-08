@@ -10,11 +10,11 @@ library(tidyverse)
 library(dplyr)
 library(shiny)
 library(plotly)
-source("../../scripts/build_scatter.R")
+source("build_scatter.R")
 
 data <- read.csv("US_gun_deaths_1985-2018.csv")
 
-data1 <- read.csv("../../data/all_incidents.csv")
+data1 <- read.csv("all_incidents.csv")
 
 data3 <- data1 %>%
   group_by(date) %>%
