@@ -3,7 +3,7 @@ library(tidyverse)
 library(ggplot2)
 data <- read.csv("../data/US_gun_deaths_1985-2018.csv")
 source("app_server.R")
-#View(data)
+View(data)
 #data1 <- read.csv("../data/all_incidents.csv", head = FALSE, sep = ",")
 #View(data1)
 

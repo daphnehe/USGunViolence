@@ -2,7 +2,7 @@
 
 Daphne He ([daphnehe\@uw.edu](mailto:daphnehe@uw.edu))\
 Stephanie Liu ([sliu39\@uw.edu](mailto:sliu39@uw.edu))\
-Cecelia Thomas ([xxx\@uw.edu](mailto:xxx@uw.edu){.email})
+Cecelia Thomas ([ceceliat@uw.edu](mailto:ceceliat@uw.edu))\
 
 *INFO-201: Technical Foundations of Informatics*\
 *The Information School*\
@@ -93,7 +93,7 @@ These findings are especially important to take note in society because we need 
 
 I believe that movies and tv shows can also be misleading because they shed more light on the dangers of assault weapons, rather than the handgun, which is involved in the majority of gun deaths in the US. More states should have a handgun waiting period, which is the delay between the purchase and the final acquisition of the hand gun. This delay serves as a "cooling off" and can avoid thousands of gun deaths annually. Some other policies that would protect people from handgun homicides is restricting concealed carry permits because people should not be thinking of how they can use their guns to protect themselves in public spaces. This only adds the likelihood that they would end up using the gun to resolve conflicts. Building off the idea that people should not attempt to solve problems with bullets, restricting "stand your ground" laws would also ensure that gun violence is not the first reaction in a potentially harmful situation.
 
-##Conclusion
+## Conclusion
 
 Handguns are most often used in gun violence incidents and lead to the most gun deaths in the US overall. There are ways that we can reduce the amount of gun deaths from handguns in the US, and one of the most effective is the implementation of handgun waiting periods. The waiting period or delay between the initial purchase of the gun to the final acquisition is a crucial "cool off" period and studies have shown that this reduces gun homicides by around 17%. Waiting periods are especially effective in preventing suicide attempts because, according to suicide survivals, they only comtemplate the action for a brief period of time. The handgun waiting period would lower the rate of suicide attempts overall. In the United States, only ten states, including the District of Columbia, have waiting periods. If all the other states were to implement waiting periods, there would be thousands of lives saved. States like Kansas allow citizens to publicly carry firearms and support shooting with firearms as a form of self-defense. This only encourages people to use bullets to attempt to solve their problems and leads to more gun deaths.
 

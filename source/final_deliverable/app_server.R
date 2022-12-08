@@ -10,8 +10,27 @@ library(tidyverse)
 library(dplyr)
 library(shiny)
 library(plotly)
+source("../../scripts/build_scatter.R")
 
 data <- read.csv("US_gun_deaths_1985-2018.csv")
+
+data1 <- read.csv("../../data/all_incidents.csv")
+
+data3 <- data1 %>%
+  group_by(date) %>%
+  count(state)
+
+data4 <- data1 %>%
+  group_by(state, date) %>%
+  mutate(n_killed = sum(n_killed))
+
+data5 <- merge(data3, data4)
+data6 <- data5[,-c(3:6)]
+data7 <- data6[,-4]
+
+data7 <- data7 %>%
+  group_by(date, n_killed) %>%
+  count(state)
 
 n_weapons <- data %>% 
    group_by(weapon_used) %>% 
@@ -47,6 +66,8 @@ server <- shinyServer(
       )
     return(p)
   })
+  
+  output$scatter <- renderPlotly({
+    return(build_scatter(data7, input$search))
+  })
 })
-
-

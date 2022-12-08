@@ -3,12 +3,10 @@ library(tidyverse)
 library(ggplot2)
 
 data1 <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-CeceliaKT/main/data/all_incidents.csv", head = FALSE, sep = ",")
-#View(data1)
-
-data1 <- data1[-c(1,2),]
-View(data1)
+data2 <- data1[-c(1,2),]
+View(data2)
   
-shootings_by_state <- data1 %>%
+shootings_by_state <- data2 %>%
   group_by(V3) %>%
   count()
 colnames(shootings_by_state)[1] = "state"
