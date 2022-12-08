@@ -4,6 +4,7 @@ library(shiny)
 
 tab_panel_summary <-tabPanel(
     h5("Summary", style = "color: #90BBCE"),
+    titlePanel("Summary"),
     p("In our findings, we found that 1) states with higher gun control, such as 
       California, generally had lower gun deaths per capita as compared to 
       states with lower rates of gun control, such as Kansas. 2) We also found 
