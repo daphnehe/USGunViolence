@@ -95,21 +95,25 @@ These findings are especially important to take note in society because we need 
 
 I believe that movies and tv shows can also be misleading because they shed more light on the dangers of assault weapons, rather than the handgun, which is involved in the majority of gun deaths in the US. More states should have a handgun waiting period, which is the delay between the purchase and the final acquisition of the hand gun. This delay serves as a "cooling off" and can avoid thousands of gun deaths annually. Some other policies that would protect people from handgun homicides is restricting concealed carry permits because people should not be thinking of how they can use their guns to protect themselves in public spaces. This only adds the likelihood that they would end up using the gun to resolve conflicts. Building off the idea that people should not attempt to solve problems with bullets, restricting "stand your ground" laws would also ensure that gun violence is not the first reaction in a potentially harmful situation.
 
-\
-Conclusion
+##Conclusion
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Handguns are most often used in gun violence incidents and lead to the most gun deaths in the US overall. There are ways that we can reduce the amount of gun deaths from handguns in the US, and one of the most effective is the implementation of handgun waiting periods. The waiting period or delay between the initial purchase of the gun to the final acquisition is a crucial "cool off" period and studies have shown that this reduces gun homicides by around 17%. Waiting periods are especially effective in preventing suicide attempts because, according to suicide survivals, they only comtemplate the action for a brief period of time. The handgun waiting period would lower the rate of suicide attempts overall. In the United States, only ten states, including the District of Columbia, have waiting periods. If all the other states were to implement waiting periods, there would be thousands of lives saved. States like Kansas allow citizens to publicly carry firearms and support shooting with firearms as a form of self-defense. This only encourages people to use bullets to attempt to solve their problems and leads to more gun deaths.
+
+Besides discouraging the use of bullets to resolve conflicts, policymakers also have to work harder to protect future children and adolescents from gun violences. There are way too many people under the age of 30 losing their lives to gun violence, especially Black people. Black people only make up 13% of the population but are more than half of the reported gun homicide victims, while white people make up 60% of the population but around 20% of the victims. We need to discuss what actions need to be taken by policymakers to protect Black communities from being overrun by gun violence.
+
+When we compared the number for gun deaths over time from 1985 to 2018, we noticed there was a dramatic decrease in gun deaths around 1994. After doing some research, we realized that, in 1994, the Brady Handgun Violence Prevention Act (the Brady Act) went into effect. This act imposed a waiting period of five days between purchase and acquisition from licensed dealers. This was especially effective in states that were not robust in background checks. The Brady Act requirement was removed in 1998 due to the availability of the National Instant Criminal Background Check System (NICS). According to our visualization, gun deaths kept going down until around 1999, where it started to rise again. This adds to the evidence that handgun waiting periods are highly effective in reducing gun deaths in the US. If only more policymakers took action and ensure that waiting periods are implemented in all 50 states, thousands of lives would be saved.
 
 #### Acknowledgements
 
-| Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.\|
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We would like to thank Professor David Henry and our Lab section TA Ishita Saxena.
 
 ## References
 
-References Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references. Please use a standard citation style of your choice. See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library
+-   "United States Gun Death Data Visualization by Periscopic." Guns.periscopic.com, Periscopic, guns.periscopic.com/.
+-   Price, Micheal. "Three Types of Laws Could Reduce Gun Deaths by More than 10%." Www.science.org, 15 June 2020, www.science.org/content/article/three-types-laws-could-reduce-gun-deaths-more-10.
+-   Luca, Michael, et al. "Handgun Waiting Periods Reduce Gun Deaths." Proceedings of the National Academy of Sciences, vol. 114, no. 46, 16 Oct. 2017, pp. 12162--12165, 10.1073/pnas.1619896114. Accessed 5 Oct. 2019.
+-   Gramlich, John. "What the Data Says about Gun Deaths in the U.S." Pew Research Center, Pew Research Center, 3 Feb. 2022, www.pewresearch.org/fact-tank/2022/02/03/what-the-data-says-about-gun-deaths-in-the-u-s/.
 
 ## Appendix A
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+No questions!
