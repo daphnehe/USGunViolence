@@ -38,10 +38,6 @@ Direct stakeholders include people who own guns and the politicians who represen
 
 Some harms with the intervention of data and technology are prejudices. If trends in the data showed that a particular demographic is more likely to commit gun violence crimes, there may be a generalization of the whole demographic to be dangerous or violent. The unanticipated consequence is that innocent people of that demographic would be harmed. The benefits of this research project is that we would have a better understanding of the trends of gun violence incidents.
 
-![covid daily case chart](icon-example.png)
-
-**NOTE:** the images are located in `www/`
-
 ## Research questions
 
 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4.
@@ -54,7 +50,7 @@ Some harms with the intervention of data and technology are prejudices. If trend
 ## The Dataset
 
 | Data file                         | \# of Observations | \# of Variables | Citation                                                                                                                                                                                                              |
-|:----------------------------------|:-------------------|:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:---------|:---------|:---------|:------------------------------------------|
 | all_incidents                     | 472,821            | 7               | Werr, E. F. (2022, May 29). Gun violence incidents in the United States. Kaggle. Retrieved October 30, 2022, from <https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa?resource=download> |
 | full_data (gun deaths in america) | 100,798            | 11              | Zelenak, A. (2018, March 20). Gun deaths in America - dataset by Azel. data.world. Retrieved October 30, 2022, from <https://data.world/azel/gun-deaths-in-america>                                                   |
 | Mass Shootings Dataset Ver 5      | 319                | 12              | kanncaa1. (2018, June 22). Why gun violence increase in Texas. Retrieved October 30, 2022, from <https://www.kaggle.com/code/kanncaa1/why-gun-violance-increase-in-texas/data>                                        |
@@ -81,13 +77,15 @@ Some limitations that our group may have to face while gathering our data sets i
 
 ## Findings
 
-![covid daily case chart](image_example2.png) **NOTE:** the images are located in `www/`
-
 The type of weapon most commonly involved in gun deaths in the US is overwhelmingly, handguns. This may come as a shock to some, since there has always been an emphasis on restricting the use of rifles or "assault weapons." In comparison, handguns kill people at much higher rates than rifles. These results only prove that placing restrictions on rifles is not enough. Real change means the need for more sweeping gun control laws, like the implementation of handgun waiting periods. Other ways to reduce the amount of people killed by handguns is by restricting concealed-carry permits and "stand your ground laws" because they encourage the use of bullets to try to solve conflicts. Different states and different gun relations. For example, states like California, Connecticut, Delaware, Hawaii, Maryland, Massachusetts, New Jersey, and Rhode Island have strict gun policies and therefore have the lowest per capita gun deaths according to the CDC.
+
+![Gun Deaths Per State](state_chart.png)
 
 According to the data on victims, we also found that Black Americans are killed by guns disproportionately. Considering that Black people only make up around 13% of the US population by over half of the gun homicide victims only proves how much society has failed to protect Black communities from gun violence. We also noticed that almost half of the gun violence victims were under the age of 30, which is concerning because that amounts to hundreds of thousands of stolen years from the lives of children and young adults. Another demographic that particularly stood out as victims are men and boys. Over 80% of the victims were male and the minority that were female were often due to domestic violence.
 
 After reviewing the trend of gun deaths from 1985 to 2018, we noticed that there was a peak in gun deaths around 1983-1984. Before 1983, the number of gun deaths was only increasing every year. After 1984, there was a dramatic drop in gun deaths. This intrigued us, so we did more research and found out that there was a natural experiment in 1984 where the federal law imposed temporary waiting periods for guns.
+
+![Gun Deaths from 1990 to 2005](year_chart.png)
 
 ## Discussion
 
