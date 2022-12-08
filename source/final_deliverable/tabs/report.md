@@ -2,7 +2,7 @@
 
 Daphne He ([daphnehe\@uw.edu](mailto:daphnehe@uw.edu))\
 Stephanie Liu ([sliu39\@uw.edu](mailto:sliu39@uw.edu))\
-Cecelia Thomas ([ceceliat@uw.edu](mailto:ceceliat@uw.edu))\
+Cecelia Thomas ([ceceliat\@uw.edu](mailto:ceceliat@uw.edu))\
 
 *INFO-201: Technical Foundations of Informatics*\
 *The Information School*\
@@ -50,7 +50,7 @@ Some harms with the intervention of data and technology are prejudices. If trend
 ## The Dataset
 
 | Data file                         | \# of Observations | \# of Variables | Citation                                                                                                                                                                                                              |
-|:---------|:---------|:---------|:------------------------------------------|
+|:----------------------------------|:-------------------|:----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | all_incidents                     | 472,821            | 7               | Werr, E. F. (2022, May 29). Gun violence incidents in the United States. Kaggle. Retrieved October 30, 2022, from <https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa?resource=download> |
 | full_data (gun deaths in america) | 100,798            | 11              | Zelenak, A. (2018, March 20). Gun deaths in America - dataset by Azel. data.world. Retrieved October 30, 2022, from <https://data.world/azel/gun-deaths-in-america>                                                   |
 | Mass Shootings Dataset Ver 5      | 319                | 12              | kanncaa1. (2018, June 22). Why gun violence increase in Texas. Retrieved October 30, 2022, from <https://www.kaggle.com/code/kanncaa1/why-gun-violance-increase-in-texas/data>                                        |
